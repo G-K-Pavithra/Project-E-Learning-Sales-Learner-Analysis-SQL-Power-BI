@@ -4,9 +4,9 @@ This project analyzes an E-Learning platform database using SQL. It focuses on u
 
 The database consists of three main tables:
 
-learners → stores user details
-courses → contains course information
-purchases → tracks transactions
+- learners → stores user details
+- courses → contains course information
+- purchases → tracks transactions
 
 
 **Database Schema**
