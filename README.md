@@ -72,6 +72,7 @@ The database consists of three main tables:
 
 
 **Key Insights**
+
 Data category dominates revenue, driven by courses like Python and SQL
 A small number of learners contribute a large share of revenue
 Repeat purchases indicate strong user engagement
