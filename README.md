@@ -67,6 +67,10 @@ VIEWS (purchase_summary)
 STORED PROCEDURES
 DATA FORMATTING
 
+**Interective dashboard **
+<img width="1295" height="733" alt="image" src="https://github.com/user-attachments/assets/d2e223c8-1111-4117-9df5-4ac810602989" />
+
+
 **Key Insights**
 Data category dominates revenue, driven by courses like Python and SQL
 A small number of learners contribute a large share of revenue
