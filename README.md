@@ -12,62 +12,62 @@ The database consists of three main tables:
 **Database Schema**
 
 **Learners Table**
-learner_id (Primary Key)
-full_name
-country
+- learner_id (Primary Key)
+- full_name
+- country
 
 **Courses Table**
-course_id (Primary Key)
-course_name
-category
-unit_price
+- course_id (Primary Key)
+- course_name
+- category
+- unit_price
 
 **Purchases Table**
-purchase_id (Primary Key)
-learner_id (Foreign Key)
-course_id (Foreign Key)
-quantity
-purchase_date
+- purchase_id (Primary Key)
+- learner_id (Foreign Key)
+- course_id (Foreign Key)
+- quantity
+- purchase_date
 
 
 **Relationships**
-One learner can make multiple purchases
-One course can be purchased multiple times
-Purchases act as a bridge table between learners and courses
+- One learner can make multiple purchases
+- One course can be purchased multiple times
+- Purchases act as a bridge table between learners and courses
 
 
 **Key SQL Analysis Performed**
 
 **Revenue Analysis**
-Total revenue generated
-Revenue by course
-Revenue by country
+- Total revenue generated
+- Revenue by course
+- Revenue by country
 
 **Customer Insights**
-Top learners by spending
-Repeat buyers identification
-Learners purchasing across multiple categories
+- Top learners by spending
+- Repeat buyers identification
+- Learners purchasing across multiple categories
 
 **Course Performance**
-Most popular courses (by quantity)
-Category-wise revenue distribution
-Courses with zero purchases
+- Most popular courses (by quantity)
+- Category-wise revenue distribution
+- Courses with zero purchases
 
 **Geographic Insights**
-Country-wise revenue contribution
-Global learner distribution
+- Country-wise revenue contribution
+- Global learner distribution
 
 
 **Advanced SQL Concepts Used**
-JOINS (INNER, LEFT, RIGHT)
-AGGREGATIONS (SUM, COUNT, ROUND)
-GROUP BY & HAVING
-SUBQUERIES logic
-VIEWS (purchase_summary)
-STORED PROCEDURES
-DATA FORMATTING
+- JOINS (INNER, LEFT, RIGHT)
+- AGGREGATIONS (SUM, COUNT, ROUND)
+- GROUP BY & HAVING
+- SUBQUERIES logic
+- VIEWS (purchase_summary)
+- STORED PROCEDURES
+- DATA FORMATTING
 
-**Interective dashboard **
+**Interective dashboard**
 <img width="1295" height="733" alt="image" src="https://github.com/user-attachments/assets/d2e223c8-1111-4117-9df5-4ac810602989" />
 
 
